@@ -12,7 +12,6 @@
             "Deadline__c": "2017-08-24",
             "Escalations__c": "Test",
             "Key_Project__c": true,
-            "Owner_Name__c": "Nik Kasala",
             "Phase__c": "Close-Out/Close",
             "Priority__c": "High",
             "Stakeholders__c": "NSC",
@@ -30,7 +29,7 @@
             "Deadline__c": "2017-08-24",
             "Escalations__c": "Yes",
             "Key_Project__c": true,
-            "Owner_Name__c": "Nik Kasala",
+            
             "Phase__c": "Phase 3",
             "Priority__c": "Low",
             "Stakeholders__c": "NSC",
@@ -46,7 +45,7 @@
             "Action_Items__c": "Testing the release <br>Working in Progress",
             "Blockers__c": "Working but has VF issues and Script Error<br> ",
             "Key_Project__c": false,
-            "Owner_Name__c": "Nik Kasala",
+            
             "Phase__c": "Phase 2",
             "Priority__c": "Medium",
             "Status__c": "At Risk"
@@ -60,7 +59,7 @@
             "Accomplishments__c": "This will erase some of the bug fixes for V1.0",
             "Action_Items__c": "Approval<br>Release <br>Design",
             "Key_Project__c": true,
-            "Owner_Name__c": "Nik Kasala",
+            
             "Phase__c": "Phase 1",
             "Priority__c": "High",
             "Status__c": "On Track"
@@ -77,7 +76,7 @@
             "Deadline__c": "2017-08-24",
             "Domain__c": "Federal Government",
             "Key_Project__c": true,
-            "Owner_Name__c": "Nik Kasala",
+            
             "Phase__c": "Phase 1",
             "Priority__c": "High",
             "Stakeholders__c": "NSC",
