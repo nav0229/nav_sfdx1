@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Project__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Determines whether or not a Project is  'Top 3' Key Project</description>
+    <externalId>false</externalId>
+    <label>Key Project</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
