@@ -5,7 +5,7 @@
                 "type": "ProjDash_Project__c",
                 "referenceId": "ProjDash_Project__cRef1"
             },
-            "Name": "VELAR",
+            "Name": "Polar_Bear",
             "Accomplishments__c": "Project Success is at stake",
             "Action_Items__c": "Testing<br>Redoing <br>Left",
             "Blockers__c": "Business owner is on vacation",
@@ -22,7 +22,7 @@
                 "type": "ProjDash_Project__c",
                 "referenceId": "ProjDash_Project__cRef2"
             },
-            "Name": "REF Pakcage",
+            "Name": "DX_ScratchOrg",
             "Accomplishments__c": "This release is for the production team",
             "Action_Items__c": "Binge<br>wort<br>NBXE<br> ",
             "Blockers__c": "Visualforce Bug",
@@ -40,7 +40,7 @@
                 "type": "ProjDash_Project__c",
                 "referenceId": "ProjDash_Project__cRef3"
             },
-            "Name": "VIND",
+            "Name": "10-Mile-Race",
             "Accomplishments__c": "Working on various outputs",
             "Action_Items__c": "Testing the release <br>Working in Progress",
             "Blockers__c": "Working but has VF issues and Script Error<br> ",
@@ -55,7 +55,7 @@
                 "type": "ProjDash_Project__c",
                 "referenceId": "ProjDash_Project__cRef4"
             },
-            "Name": "AAP Roll Out",
+            "Name": "2018 Volleyball Prep",
             "Accomplishments__c": "This will erase some of the bug fixes for V1.0",
             "Action_Items__c": "Approval<br>Release <br>Design",
             "Key_Project__c": true,
@@ -69,7 +69,7 @@
                 "type": "ProjDash_Project__c",
                 "referenceId": "ProjDash_Project__cRef5"
             },
-            "Name": "SFDX Project Test",
+            "Name": "SFDX and DevOps",
             "Accomplishments__c": "Work Repository",
             "Action_Items__c": "Packaging 2 <br>Source Code",
             "Blockers__c": "Yes this is working. ",
