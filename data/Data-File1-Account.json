@@ -121,7 +121,8 @@
                 "referenceId": "AccountRef14"
             },
             "Name": "DevOps Admin",
-            "AccountNumber": "02"
+            "AccountNumber": "02",
+            "Phone": "(703) 432-7010"
         },
         {
             "attributes": {
@@ -129,7 +130,8 @@
                 "referenceId": "AccountRef15"
             },
             "Name": "Admin",
-            "AccountNumber": "01"
+            "AccountNumber": "01",
+            "Phone": "(316) 922-7032"
         }
     ]
 }
