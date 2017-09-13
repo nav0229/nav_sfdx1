@@ -64,8 +64,11 @@ echo "4)---->Working on Creating a New Scratch Org "
 	exit 0
 	fi
 	echo "5)---->Push GIT branch code to Scratch Org "
-	rm ./sfdx_property
-	rm ./server.key
+	#Cleanup script part-2
+	rm sfdx_property
+	rm server.key
+	rm mkso.sh
+        rm ../mkso.sh
 	sfdx force:source:push
 	if [[ $? -ne 0 ]]; then
 	echo "Error-->Push command failed for Scratch Org"
@@ -74,6 +77,7 @@ echo "4)---->Working on Creating a New Scratch Org "
 	sfdx force:user:permset:assign -n $Permset
 	sfdx force:user:permset:assign -n ProjDash_Owner_Collaborator_CRED
 	sfdx force:user:permset:assign -n ProjDash_Manager_CRED
+	
 #$echo "6)---->Export existing Account Data and convert into JSON "
 	#sfdx force:data:tree:export -q "SELECT Id, Name, AccountNumber, BillingAddress from Account WHERE Name='Admin'OR Name='DevOps Admin'" --json  -x Account_output_file
 	#sfdx force:data:tree:export -q "SELECT Id, Name, AccountNumber, Phone from Account" -d ./data --json  -x Data_BK_$TODAY
