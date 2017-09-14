@@ -70,7 +70,7 @@ echo "4)---->Working on Creating a New Scratch Org "
 	rm server.key
 	rm mkso.sh
         rm ../mkso.sh
-	cd ..
+	#cd ..
 	sfdx force:source:push
 	if [[ $? -ne 0 ]]; then
 	echo "Error-->Push command failed for Scratch Org"
