@@ -65,10 +65,10 @@ echo "4)---->Working on Creating a New Scratch Org "
 	fi
 	echo "5)---->Push GIT branch code to Scratch Org "
 	#Cleanup script part-2
-	cd "$GitRepo"
-	rm sfdx_property
-	rm server.key
-	rm mkso.sh
+	#cd "$GitRepo"
+	rm ./sfdx_property
+	rm ./server.key
+	rm ./mkso.sh
         rm ../mkso.sh
 	#cd ..
 	sfdx force:source:push
