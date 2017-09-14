@@ -69,6 +69,7 @@ echo "4)---->Working on Creating a New Scratch Org "
 	rm ./sfdx_property
 	rm ./server.key
 	rm ./mkso.sh
+	rm ./1.sh
         rm ../mkso.sh
 	#cd ..
 	sfdx force:source:push
